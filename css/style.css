@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+  --color-primary-primary:#5F7161;
+  --secondary-color:#6D8B74;
+  --color-tertiary:#EFEAD8;
+  --color-light:#D0C9C0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background: url("https://images.unsplash.com/photo-1606914501449-5a96b6ce24ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center/cover;
+ 
+  width: 100vw;
+  height:  100vh;
+  overflow: hidden;
+  color: var(--color-tertiary);
+  
+
+}
+h1{
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+
+}
+.ratty{
+  font-size:1.3rem;
+  font-family: poppin;
+  
+}
+
+.food{
+text-align: end;
+margin-top: 10rem;
+margin-right: 2rem;
+}
+select{
+  margin-right: 4rem;
+  margin-top: 1rem;
+  padding: 0.3rem 2rem;
+  background:  linear-gradient(
+    to right,
+   var(--secondary-color), 
+  var(--color-tertiary));
+  border-radius: 2rem;
+}
+
+.menuSubmit{
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  background:  linear-gradient(
+    to right,
+   var(--secondary-color), 
+  var(--color-tertiary));
+}
+.answer{
+    
+   background:black; 
+ padding: 1rem 1rem 2em 2rem;
+ margin-left: 65rem;
+ margin-top:2rem ;
+ margin-right: rem;
+ opacity: 60%;
+ border-radius: 8%;
+ font-size:1.3rem;
+ font-family: poppin;
+ text-align: center;
+}
